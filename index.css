@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.3;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    animation: fadeIn 1.5s linear;
+}
+
+.clockbox {
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    width: 300px;
+    margin: 0px 0px 0px -150px;
+    padding: 10px;
+}
+
+.namebox {
+    position: fixed;
+    left: 50%;
+    top: 35%;
+    width: 400px;
+    margin: 0px 0px 0px -200px;
+    padding: 10px;
+}
+
+.toDobox {
+    position: fixed;
+    background: #faf4f4;
+    left: 50%;
+    top: 45%;
+    width: 400px;
+    margin: 0px 0px 0px -200px;
+    border: 1px solid;
+    border-radius: 20px;
+    opacity: 0.5;
+    padding: 10px;
+}
+
+.clockFormType1 {
+    text-align: center;
+    font-size: x-large;
+    color: #eeeeee;
+    margin-bottom: 0px;
+}
+
+.clockFormType2 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: xx-large;
+    color: #7fdbda;
+    margin-bottom: 0px;
+}
+
+.clockFormType3 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: large;
+    color: #a2de96;
+    margin-bottom: 0px;
+}
+
+.DoList {
+    margin-top: 0px;
+    text-align: left;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0px;
+    opacity: 1.5;
+}
+
+
+.nameFormType {
+    text-align: center;
+}
+
+.greetingform {
+    margin-top: 0px;
+    text-align: center;
+    font-size: xx-large;
+    color: #3374b1;
+    margin-bottom: 0px;
+}
+
+.toDoFormType {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.input1 {
+    border: none;
+    background: #eeeeee;
+    text-align: center;
+    font-weight: bold;
+}
+
+.input2 {
+    border: none;
+    background: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #3374b1;
+}
+
+.weatherForm {
+    text-align: right;
+    color: white;
+    opacity: 0.7;
+}
